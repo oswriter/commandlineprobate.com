@@ -1,19 +1,19 @@
-baseURL = "https://commandlineprobate.com"
-title = "Command Line Probate"
-copyright = "(c) 2017 S.M. Oliva (CC BY 4.0)"
+baseURL = "http://www.example.com"
+title = "Minimo"
+copyright = ""
 
 theme = "minimo"
 
 disqusShortname = ""
 googleAnalytics = ""
-Paginate = 10
+Paginate = 5
 
 preserveTaxonomyNames = true
 
 [params]
-  description = "Estate accounting with hledger"
-  dateFormat = "Jan 2, 2006"
-  copyrightOwner = "S.M. Oliva"
+  description = "Minimalist theme for Hugo"
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "MunifTanjim"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
   hideEntryNavigation = false
@@ -37,31 +37,23 @@ preserveTaxonomyNames = true
   facebook = ""
 
 [author]
-  name = "S.M. Oliva"
+  name = "Minimo"
 
 [author.social]
-  github = "oswriter/commandlineprobate.com"
+  codepen = "MunifTanjim"
+  facebook = "MunifTanjim"
+  github = "MunifTanjim/minimo"
+  instagram = "instagram"
+  twitter = "MunifTanjim"
 
 [permalinks]
   page = "/:slug/"
 
 [[menu.main]]
-  name = "Home"
-  weight = -80
-  identifier = "home"
-  url = "/"
-
-[[menu.main]]
-  name = "About"
+  name = "Repo"
   weight = -70
-  identifier = "about"
-  url = "/about"
-
-[[menu.main]]
-  name = "RSS"
-  weight = -60
-  identifier = "subscribe"
-  url = "/index.xml"
+  identifier = "repository"
+  url = "https://github.com/MunifTanjim/minimo"
 
 # Language Configuration
 defaultContentLanguage = "en"

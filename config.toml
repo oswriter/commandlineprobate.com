@@ -1,0 +1,36 @@
+baseurl = "https://commandlineprobate.com/"
+languageCode = "en-us"
+title = "Command Line Probate"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "Estate accounting with hledger."
+    footer = "&copy; 2017 S.M. Oliva [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) | [Portfolio](https://skipoliva.com) | [Github](https://github.com/oswriter/commandlineprobate.com) | [Google+](https://plus.google.com/u/1/114649717339477494492) | [Mastodon](https://mastodon.rocks/web/accounts/5274)"

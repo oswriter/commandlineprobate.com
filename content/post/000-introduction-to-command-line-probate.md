@@ -2,7 +2,7 @@
 title: 'Introduction to Command Line Probate'
 date: '2017-07-05'
 categories: ['introduction']
-tags: ['probate', 'double-entry accounting', 'debit', 'credit', plain-text accounting', 'ledger']
+tags: ['probate', 'plain-text accounting', 'ledger']
 ---
 
 Have you ever served as the executor of someone's estate? Or are you named as the executor in the will of your spouse, parent, or sibling? At some point, most of us will be asked to handle the "final affairs" of a family member or close friend. 

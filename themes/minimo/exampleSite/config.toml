@@ -19,6 +19,8 @@ preserveTaxonomyNames = true
   hideEntryNavigation = false
   customCSS = ["css/custom.css"]
   customJS = ["js/custom.js"]
+  hideSocialMenu = false
+  showReadTime = true
 
 [params.seo]
   # Title Separator: - – — · • * ⋆ | ~ « » < >
@@ -41,6 +43,7 @@ preserveTaxonomyNames = true
 
 [author.social]
   codepen = "MunifTanjim"
+  email = "contact@example.com"
   facebook = "MunifTanjim"
   github = "MunifTanjim/minimo"
   instagram = "instagram"

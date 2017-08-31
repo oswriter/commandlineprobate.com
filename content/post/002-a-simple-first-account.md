@@ -38,7 +38,7 @@ If you then check your account balances, **hledger** gives you the following rep
 
 Notice the account balances zero out. This is critical. In double-entry bookkeeping the accounts must balance at all times. **Hledger** will produce an error message if the entries do not balance. For example, say you accidentally entered a credit of $2,000--rather than $20,000--for the ``inventory`` account:
 
-        $ hledger balance 
+        $ hledger balance
         hledger: could not balance this transaction (real postings are off by 18000.0)
         2017/03/15 inventory - checking
             assets:aunt's checking account         20000.0
@@ -54,7 +54,7 @@ Probate estates must typically publish a legal notice to inform any potential cr
             disbursements:administration        60
             assets:aunt's checking account     -60
 
-As you can see, this journal entry creates a new account for ``disbursements``, and a sub-account for ``administration``, which stands for expenses related to the administration of the estate--as opposed to, say, administration of property. 
+As you can see, this journal entry creates a new account for ``disbursements``, and a sub-account for ``administration``, which stands for expenses related to the administration of the estate--as opposed to, say, administration of property.
 
 But wait. You cannot pay that publication bill directly from your aunt's checking account. Instead, you need to close her personal checking account and open a new account for the probate estate. You note this *change in assets* with the following journal entry:
 
@@ -76,7 +76,7 @@ In response to the notice, your aunt's credit card company sends you a bill for 
 
 If you now ask **hledger** for a balance report, you get the following:
 
-        $ hledger balance 
+        $ hledger balance
                      19783.0  assets:estate checking
                        217.0  disbursements
                         60.0    administration
@@ -125,9 +125,9 @@ Now you run a final balance to make sure there's nothing left in the estate:
         --------------------
                            0
 
-As you can see, neither ``assets`` nor ``estate checking`` appear because they each have a zero balance. If you want to show the zero-balance accounts--just to clearly illustrate the estate has no assets remaining--then include the flag ``-E`` with the ``hledger add`` command:
+As you can see, neither ``assets`` nor ``estate checking`` appear because they each have a zero balance. If you want to show the zero-balance accounts--just to clearly illustrate the estate has no assets remaining--then include the flag ``-E`` with the ``hledger balance`` command:
 
-        $ hledger balance -E 
+        $ hledger balance -E
                            0  assets
                            0    aunt's checking account
                            0    estate checking
@@ -143,4 +143,3 @@ As you can see, neither ``assets`` nor ``estate checking`` appear because they e
 ## What's Next?
 
 Again, this was a very simple overview of the probate accounting process. In the next series of posts, I'll go into more detail about how to inventory an estate, addressing in greater detail the valuation of different types of assets. I'll also explain how to properly distinguish probate from non-probate assets.
-

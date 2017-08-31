@@ -16,6 +16,9 @@
 [nextPost]
   other = "পরের পোস্ট"
 
+[noTerm]
+  other = "কোন {{ .Term }} নেই!"
+
 [openSomethingInNewTab]
   other = "{{ .Something }} নতুন ট্যাবে খোল"
 
@@ -39,3 +42,7 @@
 
 [socialMenu]
   other = "সোশ্যাল মেনু"
+
+[readingTime]
+  one = "এক মিনিট লম্বা"
+  other = "{{ .Count }} মিনিট লম্বা"

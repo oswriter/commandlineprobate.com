@@ -2,8 +2,6 @@
 title: 'A Simple First Account'
 date: '2017-07-31'
 categories: ['introduction']
-tags: ['inventory','balance','distribution','debts']
-
 ---
 
 The life of a *probate estate* can be broken down into three phases:

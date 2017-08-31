@@ -2,10 +2,9 @@
 title: 'Introduction to Command Line Probate'
 date: '2017-07-05'
 categories: ['introduction']
-tags: ['probate', 'plain-text accounting', 'ledger']
 ---
 
-Have you ever served as the executor of someone's estate? Or are you named as the executor in the will of your spouse, parent, or sibling? At some point, most of us will be asked to handle the "final affairs" of a family member or close friend. 
+Have you ever served as the executor of someone's estate? Or are you named as the executor in the will of your spouse, parent, or sibling? At some point, most of us will be asked to handle the "final affairs" of a family member or close friend.
 
 Aside from perhaps jury duty, administering an estate is probably the most common legal role assigned to the layperson. And while a good probate attorney can (and should) assist with opening and closing an estate, it is ultimately the executor's responsibility. The executor--also known as the "personal representative" or "administrator" depending on the state and circumstances of the appointment--is the person charged with gathering the assets of the deceased, paying any valid debts and administration expenses, and distributing the remainder to the appropriate heirs or beneficiaries.
 
@@ -29,9 +28,9 @@ The left side of the equation represents the money (or other property) that come
 
 In my professional career, I spent over 15 years as a trust and estate paralegal. One of my jobs was to handle the accounting for probate estates. Many times an executor would just hand over a half-completed checkbook register and a pile of unorganized receipts. I would then spend hours--and often days--organizing the data into a presentable account.
 
-From the estate's perspective, this was a waste of money. An experienced estate attorney can charge $300-$400 per hour for their time plus another $100-$200 for their paralegal. In other words, if it takes the paralegal five hours to sort out the accounts--and another hour for the attorney to review that work--the estate could be billed $1,400 for simple bookkeeping tasks. 
+From the estate's perspective, this was a waste of money. An experienced estate attorney can charge $300-$400 per hour for their time plus another $100-$200 for their paralegal. In other words, if it takes the paralegal five hours to sort out the accounts--and another hour for the attorney to review that work--the estate could be billed $1,400 for simple bookkeeping tasks.
 
-There's also the potential waste of time. As a paralegal, if I had incomplete or inaccurate financial data, I had to inform the attorney, who in turn had to contact the executor. It might take several days or weeks to get the information I needed, thereby delaying completion of the estate account. In the end, an executor who keeps complete, accurate financial records helps themselves, the attorney, and the estate's beneficiaries. 
+There's also the potential waste of time. As a paralegal, if I had incomplete or inaccurate financial data, I had to inform the attorney, who in turn had to contact the executor. It might take several days or weeks to get the information I needed, thereby delaying completion of the estate account. In the end, an executor who keeps complete, accurate financial records helps themselves, the attorney, and the estate's beneficiaries.
 
 ## Hledger and Plain-text Accounting
 
@@ -39,7 +38,7 @@ This leads to the obvious question: How do you keep track of estate accounts usi
 
 Obviously, there are a number of highly sophisticated software applications like QuickBooks and Quicken. But if you're not already familiar with these programs, there can be a steep learning curve. Additionally, most accounting software uses predefined categories for business or personal use, rather than probate estates.
 
-A few years ago, when I was looking for a simple, easy-to-configure tool to help me with probate accounting, I discovered [**hledger**](http://hledger.org/). Hledger belongs to a category of software known as [*plain-text accounting*](http://plaintextaccounting.org/). Hledger was "inspired" by [**ledger**](http://ledger-cli.org/), a "double-entry accounting system that is accessed from the UNIX command-line." 
+A few years ago, when I was looking for a simple, easy-to-configure tool to help me with probate accounting, I discovered [**hledger**](http://hledger.org/). Hledger belongs to a category of software known as [*plain-text accounting*](http://plaintextaccounting.org/). Hledger was "inspired" by [**ledger**](http://ledger-cli.org/), a "double-entry accounting system that is accessed from the UNIX command-line."
 
 Like ledger, hledger relies on simple text "journals" to provide all of the necessary financial data. The user then runs hledger from inside a terminal with a qualifying command. For example, if I wanted hledger to display all of the current account balances I would enter ``hledger balance``. Hledger itself does not modify the journal. It simply parses the existing data in the text file.
 

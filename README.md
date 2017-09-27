@@ -1,6 +1,6 @@
 # CommandLineProbate.com
 
-This is the Hugo source code for the website [Command Line Probate](https://commandlineprobate.com), published by [S.M. Oliva](https://skipoliva.com).
+This is the Hugo source code for the blog Command Line Probate, previously published by [S.M. Oliva](https://skipoliva.com). Please note that this project is currently inactive.
 
 ## License
 
